@@ -1,11 +1,14 @@
 {
-  "name": "shared-react-component-poc",
-  "version": "0.1.0",
-  "description": "A module demonstrating how to share react components",
+  "name": "shared-component-react-poc",
+  "version": "0.0.1",
+  "description": "Shared Component POC",
   "main": "build/index.js",
-  "repository": "https://github.com/powderham/shared-react-component-example.git",
+  "repository": "https://github.com/nitinkaveriappa/shared-component-react-poc.git",
   "author": "Nitin Kaveriappa",
   "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.4"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
@@ -13,7 +16,7 @@
     "babel-preset-stage-0": "^6.24.1"
   },
   "scripts": {
-    "build": "babel src -d build --copy-files",
+    "build": "babel src --only=dev build --copy-files",
     "prepare": "yarn run build"
   }
 }
