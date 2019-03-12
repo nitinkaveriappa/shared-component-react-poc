@@ -2,7 +2,6 @@
   "name": "shared-component-react-poc",
   "version": "0.1.0",
   "private": true,
-  "main": "build/index.js",
   "repository": "https://github.com/nitinkaveriappa/shared-component-react-poc.git",
   "author": "Nitin Kaveriappa",
   "dependencies": {
