@@ -55,8 +55,8 @@ class TextFields extends React.Component {
   };
 
   render() {
-    const { classes } = this.props;
-
+    const { classes, test } = this.props;
+    console.log(test);
     return (
       <form className={classes.container} noValidate autoComplete="off">
         <TextField
@@ -266,7 +266,8 @@ class TextFields extends React.Component {
 }
 
 TextFields.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  test: PropTypes.string.isRequired
 };
 
 export default withStyles(styles)(TextFields);
