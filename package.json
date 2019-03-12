@@ -1,5 +1,5 @@
 {
-  "name": "shared-react-component-example",
+  "name": "shared-react-component-poc",
   "version": "0.1.0",
   "description": "A module demonstrating how to share react components",
   "main": "build/index.js",
