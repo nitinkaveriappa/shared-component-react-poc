@@ -16,7 +16,7 @@
     "babel-preset-stage-0": "^6.24.1"
   },
   "scripts": {
-    "build": "babel src --only=dev build --copy-files",
+    "build": "babel src -d build",
     "prepare": "yarn run build"
   }
 }
