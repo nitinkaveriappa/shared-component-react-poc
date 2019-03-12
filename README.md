@@ -1,1 +1,0 @@
-## Shared Component React POC
